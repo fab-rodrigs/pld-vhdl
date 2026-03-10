@@ -27,8 +27,8 @@ begin
 
     process is
     begin
-        
+        datab_tb <= datab_tb + 1;
+        wait for 3 ns;
     end process       
-    
 
 end architecture RTL;
