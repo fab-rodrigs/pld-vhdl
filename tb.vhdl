@@ -1,31 +1,34 @@
-library ieee;
-use ieee.std_logic_1164.all;
-use ieee.numeric_std.all;
+entity tb is
+end entity tb;
 
-entity fsm is
-    port(
-        clk : in std_logic;
-        rst : in std_logic
-    );
-end entity fsm;
-
-architecture RTL of fsm is
-    type stateType is (state0, state1, state2);
-    signal state : stateType;
+architecture RTL of tb is
+    signal dataa_tb : unsigned(3 downto 0);
+    signal datab_tb : unsigned(3 downto 0);
+    signal sum_tb : unsigned(3 downto 0);
 begin
-    process(clk, rst) is
+    
+    adder_inst : entity work.adder
+        port map(
+            dataa   => dataa_tb,
+            datab   => datab_tb,
+            sum => sum_tb
+        );
+    process is
     begin
-        if rst = '1' then
-            state <= state0;
-        elsif rising_edge(clk) then
-            case state is
-                when state0 =>
-                    state <= state1;
-                when state1 =>
-                    state <= state2;
-                when state2 =>
-                    state <= state0;
-            end case;
-        end if;
+        for i in 0 to 234 loop
+            dataa_tb <= to_unsigned(i, dataa_tb'length);
+            wait for 5 ns;
+        end loop;
+        --data_tb <= x"0004";
+        --wait for 10 ns;
+        --dataa_tb <= x"0005";
+        --wait for 10 ns;
     end process;
+
+    process is
+    begin
+        
+    end process       
+    
+
 end architecture RTL;
