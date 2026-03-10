@@ -1,9 +1,13 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
 entity tb is
 end entity tb;
 
 architecture RTL of tb is
-    signal dataa_tb : unsigned(3 downto 0);
-    signal datab_tb : unsigned(3 downto 0);
+    signal dataa_tb : unsigned(3 downto 0) := (others => '0');
+    signal datab_tb : unsigned(3 downto 0) := (others => '0');
     signal sum_tb : unsigned(3 downto 0);
 begin
     
@@ -16,7 +20,7 @@ begin
     process is
     begin
         for i in 0 to 234 loop
-            dataa_tb <= to_unsigned(i, dataa_tb'length);
+            dataa_tb <= to_unsigned(i, dataa_tb'length);m
             wait for 5 ns;
         end loop;
         --data_tb <= x"0004";
