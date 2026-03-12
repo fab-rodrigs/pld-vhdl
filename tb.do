@@ -1,21 +1,29 @@
-#Cria biblioteca do projeto
+# Cria a biblioteca 'work', que é onde o ModelSim guarda os arquivos compilados
 vlib work
 
-#compila projeto: todos os aquivo. Ordem é importante
+# Compila os arquivos VHDL. 
+# IMPORTANTE: O 'adder.vhd' vem primeiro porque o 'tb.vhdl' depende dele
 vcom adder.vhd tb.vhdl
 
-#Simula (work é o diretorio, testbench é o nome da entity)
+# Inicia a simulação
+# -t ns: escala de tempo em nanosegundos
+# -voptargs="+acc": permite que você veja todos os sinais na onda (evita otimizações que "escondem" fios)
+# work.tb: diz para simular a entity 'tb' que está na biblioteca 'work'
 vsim -t ns -voptargs="+acc" work.tb
 
-#Mostra forma de onda
+# Abre a janela de formas de onda (Wave)
 view wave
 
-#Adiciona ondas específicas
-# -radix: binary, hex, dec
-# -label: nome da forma de onda
+# Adiciona todos os sinais do testbench à janela de ondas
+add wave -radix dec /dataa_tb
+add wave -radix dec /datab_tb
+add wave -radix dec /sum_tb
 
-#Simula até um 500ns
-run 1 ms
+# Executa a simulação por 1 milissegundo (tempo suficiente para ver os loops rodando)
+run 1 ms 
 
+# Ajusta o zoom para mostrar todo o período simulado na tela
 wave zoomfull
-write wave wave.ps
+
+# A linha abaixo é opcional. Se não for usar o arquivo, pode apagar.
+# write wave wave.ps
