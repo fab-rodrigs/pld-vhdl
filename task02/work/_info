@@ -1,0 +1,105 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/var/home/aluno/Downloads/pld-vhdl/task02
+T_opt
+!s110 1773363429
+V0[h>d:fkg]IR3<i1=o1mT2
+04 2 3 work tb rtl 1
+=1-f25a7db5f881-69b360e4-b7f2d-34
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Emult
+Z1 w1773363293
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 3
+R0
+Z5 8mult.vhd
+Z6 Fmult.vhd
+l0
+L12 1
+VZD52QUToBI<i847AU1Pe^3
+!s100 4iXOTGmZVb:bzTF[H>`^T3
+Z7 OL;C;2021.2;73
+32
+Z8 !s110 1773363427
+!i10b 1
+Z9 !s108 1773363427.000000
+Z10 !s90 -reportprogress|300|mult.vhd|testbench.vhd|
+Z11 !s107 testbench.vhd|mult.vhd|
+!i113 0
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+Z13 DEx4 work 4 mult 0 22 ZD52QUToBI<i847AU1Pe^3
+!i122 3
+l24
+L23 5
+V^_1FP`9a_<KmH:hmfd8iE1
+!s100 UgZXG?jVOFAO9cC7m7I9B3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+Etb
+Z14 w1773363303
+R2
+R3
+R4
+!i122 3
+R0
+Z15 8testbench.vhd
+Z16 Ftestbench.vhd
+l0
+L5 1
+VlABzOjWo1BkWf4Tna=Pk23
+!s100 BT;d<<<=5bfd@8J@8B8R52
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+Artl
+R13
+R2
+R3
+R4
+DEx4 work 2 tb 0 22 lABzOjWo1BkWf4Tna=Pk23
+!i122 3
+l14
+L8 37
+VMRS3alGNF4ef3;T69K2gA2
+!s100 I@YKgEAY=SHZ2[PM`6BnC2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
