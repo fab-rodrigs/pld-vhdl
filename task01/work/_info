@@ -1,0 +1,106 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/var/home/aluno/Downloads/pld-vhdl
+T_opt
+!s110 1773362455
+VA3AgnQj2QhA7CU:6bkoz23
+04 2 3 work tb rtl 1
+=1-3a627e25dc85-69b35d17-3af78-41
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Eadder
+Z2 w1773362243
+Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R1
+Z6 8adder.vhd
+Z7 Fadder.vhd
+l0
+L5 1
+Vh;OkejSVN5OIHhJ583=WO3
+!s100 j<QXGmV0l0N1;_4gYcQ[R2
+Z8 OL;C;2021.2;73
+32
+Z9 !s110 1773362454
+!i10b 1
+Z10 !s108 1773362454.000000
+Z11 !s90 -reportprogress|300|adder.vhd|tb.vhdl|
+Z12 !s107 tb.vhdl|adder.vhd|
+!i113 0
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R3
+R4
+R5
+Z14 DEx4 work 5 adder 0 22 h;OkejSVN5OIHhJ583=WO3
+!i122 1
+l17
+L16 4
+VZzboT@4M<4X;9`GT7=`hA0
+!s100 `Bi:D5:_mAX?c^bI;DHQo2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Etb
+Z15 w1773362269
+R3
+R4
+R5
+!i122 1
+R1
+Z16 8tb.vhdl
+Z17 Ftb.vhdl
+l0
+L5 1
+VlABzOjWo1BkWf4Tna=Pk23
+!s100 BT;d<<<=5bfd@8J@8B8R52
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Artl
+R14
+R3
+R4
+R5
+DEx4 work 2 tb 0 22 lABzOjWo1BkWf4Tna=Pk23
+!i122 1
+l12
+L8 32
+V^5cLQS?1<]VlBKKBMh1T[1
+!s100 Xf7WKz4^;H>laLTa@k7M`2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
