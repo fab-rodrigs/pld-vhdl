@@ -1,0 +1,149 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/var/home/aluno/Downloads/pld-vhdl/task03
+T_opt
+Z2 !s110 1773967779
+V2lF5@]5GRnQTklYJR2FAh0
+04 10 8 work tb_mux_sel behavior 1
+=1-9a5d03d7b423-69bc99a3-c35d9-60
+!s124 OEM10U3 
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Emux_sel
+Z3 w1773965878
+Z4 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+R1
+Z7 8mux_sel.vhd
+Z8 Fmux_sel.vhd
+l0
+L5 1
+V_<LM28UE<9z=JkN[8G>jL3
+!s100 i4^i=bCk3M<fT3zUC@cZg0
+Z9 OL;C;2021.2;73
+32
+R2
+!i10b 1
+Z10 !s108 1773967779.000000
+Z11 !s90 -reportprogress|300|mux_sel.vhd|mux_when.vhd|testbench.vhd|
+Z12 !s107 testbench.vhd|mux_when.vhd|mux_sel.vhd|
+!i113 0
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R4
+R5
+R6
+Z14 DEx4 work 7 mux_sel 0 22 _<LM28UE<9z=JkN[8G>jL3
+!i122 2
+l19
+L18 7
+VnUDGGV02Tg9Va4D>KF6cl2
+!s100 PUA>ozmNILTWL7]VB28h13
+R9
+32
+R2
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Emux_when
+Z15 w1773966761
+R4
+R5
+R6
+!i122 2
+R1
+Z16 8mux_when.vhd
+Z17 Fmux_when.vhd
+l0
+L5 1
+VA[:W9[NRO8HXjmf`8Oe6>2
+!s100 MYh78OS1J8KcYHa5cNdT?1
+R9
+32
+R2
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Artl
+R4
+R5
+R6
+Z18 DEx4 work 8 mux_when 0 22 A[:W9[NRO8HXjmf`8Oe6>2
+!i122 2
+l18
+L17 6
+V5WFG]Zb7249^6B^=3czeK3
+!s100 mOC19W6>zjboWL>ajFWG=3
+R9
+32
+R2
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Etb_mux_sel
+Z19 w1773967776
+R4
+R5
+R6
+!i122 2
+R1
+Z20 8testbench.vhd
+Z21 Ftestbench.vhd
+l0
+L6 1
+V;;CG``L7lj2EN2;dEWDC`2
+!s100 m2R@`1UJ]7<EPX7@O19KW2
+R9
+32
+R2
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Abehavior
+R18
+R14
+R4
+R5
+R6
+DEx4 work 10 tb_mux_sel 0 22 ;;CG``L7lj2EN2;dEWDC`2
+!i122 2
+l18
+L9 63
+V@f?oT35niLkD3og3_e^6;3
+!s100 Ic=ESKFOa5gk[=jE>m4ZO0
+R9
+32
+R2
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
